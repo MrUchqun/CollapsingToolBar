@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_second_scene"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/ivGate"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/img_gate"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_ball"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
